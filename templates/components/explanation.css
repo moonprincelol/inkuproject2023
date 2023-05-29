@@ -1,0 +1,43 @@
+.explanation-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.explanation-icon {
+  fill: var(--dl-color-colorscheme-3);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.explanation-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.explanation-text {
+  color: var(--dl-color-colorscheme-3);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.explanation-text1 {
+  color: var(--dl-color-colorscheme-3);
+  text-align: justify;
+}
+
+
+
+@media(max-width: 767px) {
+  .explanation-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .explanation-container1 {
+    flex-direction: column;
+  }
+}
