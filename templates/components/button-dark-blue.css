@@ -1,0 +1,33 @@
+.button-dark-blue-container {
+  display: flex;
+  position: relative;
+}
+.button-dark-blue-button {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  align-self: center;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius10);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-colorscheme-7);
+}
+.button-dark-blue-root-class-name {
+  margin-top: var(--dl-space-space-twounits);
+}
+.button-dark-blue-root-class-name1 {
+  margin-top: var(--dl-space-space-twounits);
+}
+
+
+
+.button-dark-blue-root-class-name5 {
+  align-self: center;
+}
+
+
