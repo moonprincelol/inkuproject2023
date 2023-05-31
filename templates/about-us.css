@@ -7,7 +7,7 @@
 .navigation-links-about-us {
   color: var(--dl-color-colorscheme-7);
   cursor: pointer;
-  cursor: hand;
+  cursor:: hand;
   text-decoration: none;
 }
 .navigation-links-study {
@@ -166,7 +166,7 @@
   text-align: center;
 }
 .navigation-links-tokens {
-  cursor: hand;
+  cursor:: hand;
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
@@ -188,7 +188,7 @@
 }
 .navigation-links-question-board {
   cursor: pointer;
-  cursor: hand;
+  cursor:: hand;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
